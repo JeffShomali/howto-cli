@@ -1,0 +1,22 @@
+{
+  "name": "jeffshomali",
+  "version": "0.0.1",
+  "description": "How to CLI | Command Line Help in CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Shomali <info@jeffshomali.com> (http://www.jeffshomali.com)",
+  "license": "ISC",
+  "bin": {
+    "howto": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "figlet": "^1.2.0",
+    "terminal-link": "^1.1.0"
+  }
+}
